@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:theme="@android:style/Theme.NoTitleBar"
+        android:background="@color/fondo_tarjeta_2"
+        tools:context=".tarjetaBienvenida2">
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/blanco"
+            android:padding="45dp"
+            android:text="@string/tarjeta_bienvenida_2_top_text"
+            android:textAlignment="center"
+            android:textColor="@color/fondo_tarjeta_2"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="337dp"
+            android:layout_height="601dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="28dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            app:srcCompat="@drawable/dibujo_1_2" />
+
+        <Button
+            android:id="@+id/button_tarjeta_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="25dp"
+            android:background="@color/blanco"
+            android:textColor="@color/fondo_tarjeta_2"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:text="@string/texto_boton_tarjeta_bienvenida1"
+            tools:layout_editor_absoluteX="174dp"
+            tools:layout_editor_absoluteY="684dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2"/>
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

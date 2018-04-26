@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">TuxAlert</string>
+    <string name="tarjeta_bienvenida_1_top_text">Bienvenido a TuxAlert</string>
+    <string name="tarjeta_bienvenida_2_top_text">Si ves algún accidente o robo</string>
+    <string name="tarjeta_bienvenida_3_top_text">Solo tienes que tocar el botón de alerta</string>
+    <string name="tarjeta_bienvenida_4_top_text">Y la ayuda vendrá en camino</string>
+    <string name="tarjeta_bienvenida_5_top_text">¡Así de fácil!</string>
+    <string name="texto_boton_tarjeta_bienvenida1">Adelante</string>
+    <string name="texto_boton_tarjeta_bienvenida_final">Iniciar</string>
 </resources>

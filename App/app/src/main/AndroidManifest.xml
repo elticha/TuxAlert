@@ -16,6 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".tarjetaBienvenida2" />
+        <activity android:name=".tarjetaBienvenida3" />
+        <activity android:name=".tarjetaBienvenida4"></activity>
     </application>
 
 </manifest>

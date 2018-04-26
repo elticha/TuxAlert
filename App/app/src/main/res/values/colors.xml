@@ -3,4 +3,16 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="boton_cafe">#87683D</color>
+    <color name="sombra_boton_alerta">#C73D44</color>
+    <color name="default_background">#DBDBDB</color>
+    <color name="bordes_botones_y_flechas">#BF0811</color>
+    <color name="texto_barra_superior">#C02D34</color>
+    <color name="barra_superior">#343434</color>
+    <color name="fondo_tarjeta_1">#d94148</color>
+    <color name="fondo_tarjeta_2">#8165A2</color>
+    <color name="fondo_tarjeta_3">#E5B463</color>
+    <color name="fondo_tarjeta_4">#75AD74</color>
+    <color name="fondo_tarjeta_5">#009493</color>
+    <color name="blanco">#FFFFFF</color>
 </resources>
